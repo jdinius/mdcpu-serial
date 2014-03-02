@@ -1,0 +1,9 @@
+function readOutput(file,N)
+
+fid = fopen(file,'r');
+count = 1;
+while ~feof(fid)
+    time(count) = fread(fid,'double');
+    pos(:,
+    count = count + 1;
+end
